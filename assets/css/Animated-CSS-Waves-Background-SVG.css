@@ -72,3 +72,72 @@
   animation: move_wave 15s linear infinite;
 }
 
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+/* Define un estilo para el formulario */
+.login-form {
+width: 400px;
+margin: 0 auto;
+font-family: Tahoma, Geneva, sans-serif;
+}
+/* Define estilos para los campos de entrada */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+width: 100%;
+padding: 15px;
+border: 1px solid #dddddd;
+margin-bottom: 15px;
+box-sizing: border-box;
+font-size: 14px;
+}
+/* Define estilos para el botón de inicio de sesión */
+.login-form input[type="submit"] {
+width: 100%;
+padding: 15px;
+background-color: #535b63;
+border: 0;
+box-sizing: border-box;
+color: #ffffff;
+font-size: 14px;
+cursor: pointer;
+}
+/* Define un estilo para el formulario */
+.register-form {
+width: 400px;
+margin: 0 auto;
+font-family: Tahoma, Geneva, sans-serif;
+}
+/* Define estilos para los campos de entrada */
+.register-form input[type="text"],
+.register-form input[type="password"] {
+width: 100%;
+padding: 15px;
+border: 1px solid #dddddd;
+margin-bottom: 15px;
+box-sizing: border-box;
+font-size: 14px;
+}
+/* Define estilos para el botón de register */
+.register-form input[type="submit"] {
+width: 100%;
+padding: 15px;
+background-color: #535b63;
+border: 0;
+box-sizing: border-box;
+color: #ffffff;
+font-size: 14px;
+cursor: pointer;
+}
