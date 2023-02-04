@@ -3,33 +3,7 @@
 
 <head>
     <style>
-        /* Define un estilo para el formulario */
-        .login-form {
-          width: 300px;
-          margin: 0 auto;
-          font-family: Tahoma, Geneva, sans-serif;
-        }
-        /* Define estilos para los campos de entrada */
-        .login-form input[type="text"],
-        .login-form input[type="password"] {
-          width: 100%;
-          padding: 15px;
-          border: 1px solid #dddddd;
-          margin-bottom: 15px;
-          box-sizing: border-box;
-          font-size: 14px;
-        }
-        /* Define estilos para el botón de inicio de sesión */
-        .login-form input[type="submit"] {
-          width: 100%;
-          padding: 15px;
-          background-color: #535b63;
-          border: 0;
-          box-sizing: border-box;
-          color: #ffffff;
-          font-size: 14px;
-          cursor: pointer;
-        }
+
       </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -77,37 +51,68 @@
         </div>
     </nav>
     <main class="page">
-        <section class="clean-block features">
-            <div class="container">
-                <div class="block-heading">
-                    <form class="login-form" action="login.php" method="post">
-                        <!-- Campo para el nombre de usuario -->
-                        <input type="text" name="username" placeholder="Username">
-                        <!-- Campo para la contraseña -->
-                        <input type="password" name="password" placeholder="Password">
-                        <!-- Botón de inicio de sesión -->
-                        <input type="submit" value="Log In">
-                      </form>
-                    <h2 class="text-info">L2KameKase gamessssss rules</h2>
-                    <p></p>
+      <section class="clean-block features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="block-heading">
+                <h2 class="text-info">L2KameKase rules</h2>
+                <p>Inicia sesión o registra una cuenta</p>
+              </div>
+              <form class="login-form" action="login.php" method="post">
+                <h4 class="text-center">Inicio de Sesión</h4>
+                <div class="form-group">
+                  <input type="text" name="username" class="form-control" placeholder="Usuario" required>
                 </div>
-                    </div>
+                <div class="form-group">
+                  <input type="password" name="password" class="form-control" placeholder="Contraseña" required>
                 </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-primary btn-block" value="Iniciar Sesión">
+                </div>
+              </form>
             </div>
-        </section>
+            <div class="col-md-6">
+              <div class="block-heading">
+                <h2 class="text-info">Registro</h2>
+                <p>Crea una cuenta para acceder a más funciones</p>
+              </div>
+              <form class="register-form" action="register.php" method="post">
+                <h4 class="text-center">Formulario de Registro</h4>
+                <div class="form-group">
+                  <input type="text" name="username" class="form-control" placeholder="Usuario" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" class="form-control" placeholder="Contraseña" required>
+                </div>
+                <div class="form-group">
+                  <input type="password" name="confirm_password" class="form-control" placeholder="Confirmar Contraseña" required>
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-success btn-block" value="Registrarse">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    
     <div class="footer-dark">
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 item text">
-                        <h3>L2KameKase.io</h3>
+                        <h3>L2KameKase.com</h3>
                         <p>A server in constant change and adaptation, immersed in innovation and continuous learning
                             It helps to foster a different community based on the concepts of freedom, respect, competitiveness and doing what we like to play the most.</p>
                     </div>
                     <div class="col item social"><a href="https://www.youtube.com/channel/UC2wAKVYzZz5QKIvbFZfXtUg"><i class="icon ion-social-youtube"></i><a href="https://www.facebook.com/KameKase222"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/KameFreddy"><i class="icon ion-social-twitter"></i></a><a href="https://www.twitch.tv/kamekase222"><i class="icon ion-social-twitch"></i></a><a href="https://www.instagram.com/kamekase222/"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
-                <p class="copyright">L2KameKase © 2022</p>
+                <p class="copyright">L2KameKase © 2023</p>
             </div>
         </footer>
     </div>
